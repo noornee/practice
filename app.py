@@ -22,7 +22,7 @@ def create_acc():
             pword1 = input('confirm password: ')
             if pword == pword1:
                 print(
-                    f'Hello {name[0:1].upper()+name[1:]}, your account has been successfully created!')
+                    f'Hello {name[0:1].upper()+name[1:]}, your account has been created!')
                 temp.append({'name': name, 'email': email, 'password': pword})
                 write_data(data)
                 break
