@@ -7,7 +7,7 @@ import json
 
 def write_data(data, filename='data.json'):
     with open(filename, 'w') as doc:
-        json.dump(data, doc, indent=1)
+        json.dump(data, doc, indent=2)
 
 
 def create_acc():
